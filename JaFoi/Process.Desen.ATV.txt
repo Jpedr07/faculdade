@@ -1,0 +1,82 @@
+Exercícios Processo de Des. e Atv. 
+
+João Pedro de Lima RA: 199389
+Rafael Matheus RA: 197437 
+
+Exercício 1: 
+Feito em linguagem Python:
+
+class TaskManager:
+    def __init__(self):
+        self.tasks = []
+    
+    def add_task(self, description):
+        self.tasks.append({"description": description, "completed": False})
+        print("Tarefa adicionada com sucesso!")
+    
+    def list_tasks(self):
+        if not self.tasks:
+            print("Nenhuma tarefa cadastrada.")
+        else:
+            for index, task in enumerate(self.tasks, start=1):
+                status = "[X]" if task["completed"] else "[ ]"
+                print(f"{index}. {status} {task['description']}")
+    
+    def complete_task(self, index):
+        if 0 < index <= len(self.tasks):
+            self.tasks[index - 1]["completed"] = True
+            print("Tarefa marcada como concluída!")
+        else:
+            print("Índice inválido!")
+    
+    def remove_task(self, index):
+        if 0 < index <= len(self.tasks):
+            removed_task = self.tasks.pop(index - 1)
+            print(f"Tarefa '{removed_task['description']}' removida com sucesso!")
+        else:
+            print("Índice inválido!")
+
+def main():
+    manager = TaskManager()
+    while True:
+        print("\nGerenciador de Tarefas")
+        print("1. Adicionar Tarefa")
+        print("2. Listar Tarefas")
+        print("3. Concluir Tarefa")
+        print("4. Remover Tarefa")
+        print("5. Sair")
+        opcao = input("Escolha uma opção: ")
+        
+        if opcao == "1":
+            desc = input("Digite a descrição da tarefa: ")
+            manager.add_task(desc)
+        elif opcao == "2":
+            manager.list_tasks()
+        elif opcao == "3":
+            index = int(input("Digite o número da tarefa a marcar como concluída: "))
+            manager.complete_task(index)
+        elif opcao == "4":
+            index = int(input("Digite o número da tarefa a remover: "))
+            manager.remove_task(index)
+        elif opcao == "5":
+            print("Saindo...")
+            break
+        else:
+            print("Opção inválida! Tente novamente.")
+
+if __name__ == "__main__":
+    main()
+
+
+Exercício 2:
+2 a) O sistema deve permitir o cadastro do perfil dos clientes; O sistema deve permitir a simulações de investimentos; o sistema deve permitir o acompanhamento de rendimento dos clientes; O sistema deve fornecer diversas possibilidades de investimentos; o sistema deve emitir relatórios de investimentos. 
+
+2 b) O sistema deve ser criptografado e garantir a segurança de dados do cliente; O sistema precisa ser intuitivo e de fácil aprendizado; O sistema precisa ter compatibilidade com diversos softwares. 
+
+2 c) Um cliente ele cria sua conta no sistema e verifica a simulação de um investimento para 2 anos. Após essa simulação, ele realiza o investimento, com as devidas seguranças, e deixa a aplicação rendendo. Após esses 2 anos, ele verifica o investimento, e realiza um relatorio. 
+
+2 d) O sistema tem que estar em conformidade com a LGPD, garantindo a proteção dos dados dos usúarios. 
+
+Exercício 3:
+
+Primeiro, é necessario entrar em contato com o cliente e realizar o levantamento de requisitos e suas funcionalidades para poder seguir com o design e posterior codificação do sistema. Após criar o sistema, (desconsiderando o metodo de criação do sistema), é necessario começar a testar ele e implementar. 

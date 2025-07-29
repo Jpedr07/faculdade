@@ -1,0 +1,36 @@
+Dispositivos de Entrada
+Vetoriais: Denotam equipamentos através dos quais se pode colher dados (pontos) de forma isolada.
+Matriciais: Definem uma classe de dispositivos em que os dados (pontos) são colhidos em conjuntos e armazenados em forma de matrizes.
+
+Dispositivos de Saída
+Vetoriais: São imagens criadas através de comandos específicos para a geração de entidades como, por exemplo, retas e círculos.
+Matriciais: Designa dispositivos cuja geração de imagens dá-se pelo “acendimento” ou “apagamento” de pontos sobre uma matriz.
+
+Exemplos na computação grafica; 
+
+DISPOSITIVOS DE ENTRADA
+
+DIGITALIZADOR A LASER 3D - (Matricial) 
+O digitalizador a laser 3D é um dispositivo de entrada que utiliza lasers para mapear a superfície de objetos em três dimensões. 
+Ele captura dados de pontos sobre a superfície do objeto e os armazena em uma matriz. 
+Essa técnica é utilizada para criar modelos 3D de objetos físicos, sendo fundamental para aplicações como modelagem digital, animação e impressão 3D.
+
+DATA GLOVE - (Vetorial) 
+As luvas digitais (ou data gloves) são dispositivos de entrada que permitem a captura de movimentos das mãos e dedos, utilizando sensores para detectar a posição e o movimento de cada dedo. Esses dados são então convertidos em sinais digitais, representando de forma isolada cada posição no espaço tridimensional.
+São muito usadas em realidade virtual e aumentada, proporcionando uma interface natural para interação.
+
+SCANNER - (Matricial)
+O scanner de imagem é um dispositivo matricial de entrada que captura imagens de documentos, fotos ou objetos e as converte em formatos digitais. Ele funciona através da digitalização de pontos dispostos em uma matriz, capturando cada ponto de cor e intensidade para formar a imagem digitalizada.
+
+DISPOSITIVOS DE SAIDA
+ÓCULOS DE REALIDADE VIRTUAL (VR) - (Matricial)
+Os óculos de realidade virtual (VR) também podem ser considerados dispositivos de saída matriciais. Eles possuem telas internas que exibem imagens para o usuário, com a resolução de cada pixel sendo ajustada em tempo real para criar um ambiente imersivo e dinâmico. 
+A visualização no VR é feita por meio de uma matriz de pixels, criando uma experiência visual interativa e que o tornou muito utilizado.
+
+TELA DE CRISTAL LIQUIDO (LCD) - (Matricial)
+As telas LCD são exemplos de dispositivos de saída matriciais. Elas funcionam por meio da ativação de pixels em uma matriz de pontos (píxeis), que, ao serem iluminados ou desativados, formam imagens e gráficos. 
+Este tipo de dispositivo é comumente utilizado em monitores, televisores e dispositivos móveis. Elas também são utilizadas no exemplo citado acima (VR). 
+
+PLOTTER - (Vetorial)
+O plotter é um dispositivo de impressão que utiliza canetas ou outras ferramentas para desenhar linhas em uma superfície. Ele cria imagens ou gráficos a partir de comandos que especificam pontos de interseção e trajetórias de linhas. 
+Esse tipo de dispositivo é amplamente utilizado em engenharia e design gráfico, onde precisão e detalhes são essenciais.

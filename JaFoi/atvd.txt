@@ -1,0 +1,13 @@
+Exercícios Processo de Des. e Atv. 
+
+João Pedro de Lima RA: 199389
+Rafael Matheus RA: 197437 
+
+Exercício 2:
+2 a) O sistema deve permitir o cadastro do perfil dos clientes; O sistema deve permitir a simulações de investimentos; o sistema deve permitir o acompanhamento de rendimento dos clientes; O sistema deve fornecer diversas possibilidades de investimentos; o sistema deve emitir relatórios de investimentos. 
+
+2 b) O sistema deve ser criptografado e garantir a segurança de dados do cliente; O sistema precisa ser intuitivo e de fácil aprendizado; O sistema precisa ter compatibilidade com diversos softwares. 
+
+2 c) FAZER 
+
+2 d) O sistema tem que estar em conformidade com a LGPD, garantindo a proteção dos dados dos usúarios. 

@@ -1,0 +1,5 @@
+Basicamente, a teoria de Nyquist diz que, para capturar um sinal sem que ele esteja distorciso, é preciso tirar "fotos" dele pelo menos duas vezes mais rápido do que sua maior variação.
+Ou seja, precisamos de uma resolução alta o suficiente para capturar todos os detalhes sem criar efeitos estranhos, como padrões distorcidos, pixalidos ou serrilhados.
+Se tiramos poucos pontos de uma imagem de baixa resolução, perdemos detalhes e podemos ver efeitos indesejados como linhas onduladas ou padrões que não existiam na cena original. 
+Para evitar isso, usamos filtros e técnicas que suavizam ou aumentam a resolução da imagem. 
+Tem uma equação que calcula certinho, pelo que eu pesquisei, mas do geral seria isso. 

@@ -1,0 +1,108 @@
+body {
+    background: url(imagens/background.jpg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-style: normal;
+    font-weight: bolder; 
+    line-height: 1.6;  
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #667302; 
+    padding: 20px;
+}
+
+header .logo img {
+    height: 100px;
+}
+
+.banner {
+    font-family: Arial, sans-serif;
+    font-weight: bold; 
+}
+
+.pacotes {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.pacote {
+    width: 50%;
+    text-align: center;
+}
+
+.pacote img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pacote h3 {
+    margin-top: 10px;
+}
+
+.adicional {
+    padding: 1em;
+    text-align: center;
+    border-radius: 10px; 
+}
+
+
+.contato {
+    padding: 20px;
+    background-color: #A69B65;
+    text-align: center;
+}
+
+.contatoimg {
+    height:50%;
+    display: auto;
+    padding: 10px;  
+    text-align: center;
+}
+
+.h2center {
+    text-align: center;
+}
+
+.contato input,
+.contato textarea {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contato button {
+    padding: 10px 20px;
+    background-color: #2C4001; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.contato button:hover {
+    background-color: #2C4001; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #70a105; 
+}
+

@@ -1,0 +1,5 @@
+a) Manipulação de dados na memória --> LDA valor + STA valor + HLT.
+
+b) Somando dois números --> LDA valor + STA valor + ADD valor + HLT
+
+c) Somando três números -->  LDA valor + ADD valor + ADD 2 valor + STA valor + HLT 

@@ -1,0 +1,15 @@
+Qual o primeiro passo para um bom gerenciamento de redes?: Topologia.
+
+O que mais é preciso para ter um bom gerencimamento de redes?: Documentação no geral, inventario e diagramas de rede.
+
+Qual a importancia do Backup?: Auxiliar e garantir o funcionamento e monitoramento da rede.
+
+Que tipo de informação guarda o Log?: Ele guarda acessos, quedas, erros e eventos importantes. 
+
+Quais tipos de problemas podem surgir na falta do Log?: Falhas, problemas de segurança e capacidade.
+
+Como corrigir um problema?: Primeiramente, precisa ter a informação sobre o erro, após, analisar as informações e descobrir a razão do problema para ai sim corrigi-la. 
+
+Quais as funções de um profissional de administrador de redes?: Definir procedimentos e politicas relacionadas a rede. Fazer o monitoramento da rede e buscar soluções para eventuais problemas. 
+
+Para quê um protocolo de gerenciamento de redes?: Com o crescimento de redes, surgiu a necessidade da criação e melhor gestão, facilitando o gerenciamento de redes. 

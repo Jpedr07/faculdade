@@ -1,0 +1,21 @@
+import matplotlib.pyplot as plt
+pontos_plano1 = [(1,2), (3,4), (5,1), (6,3)] 
+pontos_plano2 = [(2,3), (4,5), (6,2), (7,4)]
+
+x1, y1 = zip(*pontos_plano1)
+x2, y2 = zip(*pontos_plano2)
+
+plt.figure(figsize=(6,6)) #Definindo tamanha da figura
+plt.axhline(0, color='black', linewidth=0.5) #Add eixo X
+plt.axvline(0, color='black', linewidth=0.5) #Add eixo y
+plt.grid(True, linestyle='--', linewidth=0.5) #Add uma grade ao gráfico
+
+plt.scatter(x1, y1, color='blue', label='Plano 1')
+plt.scatter(x2, y2, color='red', marker='s', label='Plano 2')
+
+for i in range(len(pontos_plano1)): 
+    plt.plot([x1[i], x2[i]], [y2[i], y2[i]], 'g--'  )
+
+plt.legend()
+plt.title("Plano Cartesiano com 2 pontos e suas conexões")
+plt.show()
